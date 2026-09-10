@@ -40,7 +40,7 @@ const sendPush = async () => {
 
     try {
         // Enviar los datos al servidor remoto
-        const response = await fetch("https://haciendas.online/pushnot.php", options);
+        const response = await fetch("https://tannery-unspoiled-dislodge.ngrok-free.dev/pushnot.php", options);
         const result = await response.json();
 
         if (result.success) {
